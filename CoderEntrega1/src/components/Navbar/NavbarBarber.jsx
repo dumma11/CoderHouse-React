@@ -4,7 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import imagen from '../../assets/images/logochico.png'
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import CartWidget from '../CartWidget/CartWidget'
-import './Navbar.css'
+import './NavbarBarber.css'
 
 const NavbarBarber = () => {
   return (
@@ -30,7 +30,7 @@ const NavbarBarber = () => {
                 Vista General
               </NavDropdown.Item>
             </NavDropdown>
-            <CartWidget itemCount="0" /> {/* Integrar el CartWidget */}
+            <CartWidget itemCount="0" />
           </Nav>
         </Container>
       </Navbar>
